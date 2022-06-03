@@ -5,11 +5,11 @@ export interface Ipost {
   user: {
     name: string;
     email: string;
-  }
+  };
 }
 
 export interface IpostsResponse {
   posts: {
-    data: Ipost[]
+    data: Ipost[];
   };
 }
